@@ -1,0 +1,20 @@
+# MEAN Stack REST API template using TypeScript
+This is a simple way to get started in a mean project.
+
+This project includes:
+- express
+- mongoose
+- dotenv
+- cors
+- bcrypt
+- helmet
+- debug
+- cookie-parser
+- http-errors
+- jsonwebtoken
+- mongo-store
+- morgan
+- auth routes (signup & login)
+- auth middleware (authorization skeleton, authenticationRequired and apiToken required)
+- basic user model
+- env.example with every used variable

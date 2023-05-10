@@ -24,7 +24,10 @@ export function requiresAuthentication(req: Request, res: Response, next: NextFu
     return next();
 }
 
-export function requiresAuthorization(req: Request, res: Response, next: NextFunction) {
+export function requiresAuthorization(level: number | string) {
+    return function (req: Request, res: Response, next: NextFunction) {
+        next();
+    }
 }
 
 export function requiresAPIToken(req: Request, res: Response, next: NextFunction) {
