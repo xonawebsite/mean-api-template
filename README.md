@@ -35,6 +35,11 @@ npm run debug # turns on the debug mode and runs npm run start
 
 npm run dev # turns on the debug mode and runs npm run start:dev
 ```
+
+# Endpoints
+
+I've included an [Insomnia json](./mean-api-template.json) so you can test every single endpoint by yourself.
+
 # Contributing
 
 See [CONTRIBUTING](./CONTRIBUTING.md) for information on how to contribute to the project
